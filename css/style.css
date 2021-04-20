@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&family=Montserrat:wght@300;400;900&display=swap');
+
+html, body {
+  font-family: 'Montserrat';
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+body {
+	background-color: #0bab50;
+	position: relative;
+	top: 0;
+}
+
+header {
+  background:#0bab50;
+	max-width: 100%;
+	height: 60px;
+	box-shadow: 2px 2px 2px #000;
+	position: relative;
+	top: 0;
+	padding: 0 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header h1{
+	margin: 0;
+	position: relative; 
+}
+
+header h1>img{
+  max-height: 60px;
+}
+
+header nav ul{
+	list-style: none;
+	display: flex;
+}
+
+header nav ul>li{
+	margin: 0 5px;
+
+}
+
+header nav ul>li>a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 6px 20px;
+	font-family: 'Graduate';
+}
+
+header nav ul>li>a:hover{
+	background-color:#ab4437;
+}
+
+.banner {
+	height: 600px;
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+}
+
+.banner::before{
+	content: ' ';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 9;
+	background: rgba(0,0,0,.45);
+}
+
+.banner img{
+	position: absolute;
+	width: 100%;
+	top: -100px;
+	right: 0px;
+}
+
+.banner .legend{
+	width: 100%;
+	height: 180px;
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	left: 0;
+	text-align: center;
+	color: #ffffff;
+}
+
+.banner .legend h2{
+	font-size: 60px;
+	margin: 5px 0;
+}
+
+.banner .legend h3{
+	font-weight: 400;
+}
+
+.sobre{
+	background:#0bab50 ;
+	padding: 60px 30px;
+	color: #ffffff
+}
+
+.sobre p{
+	font-weight: 400;
+	font-family: 'Montserrat';
+}
+
+.sobre .contato {
+	text-align: center;
+}
+
+.cards{
+	padding: 30px 60px;
+}
+
+.cards .grid{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	max-width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+.cards article{
+	/* width: calc(25%-20px); */
+	margin-left: 10px;
+	margin-top: 10px;
+	box-sizing: border-box;
+	background: #ffffff;
+	overflow: hidden;
+	border-radius: 4px;
+}
+
+.cards article h3{
+	text-align: center;
+
+}
+
+.cards article img {
+	width: 100%;
+}
+
+.cards article h5 {
+	font-family: 'Graduate';
+	color: #ab4437;
+	font-size: 18px;
+}
+
+.cards article figcaption{
+	padding: 15px;
+}
+
+/* .titulo table {
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.titulo table img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+}
+
+.titulo table h1 {
+
+    text-align: center;
+}
+
+.titulo table h2 {
+
+    text-align: center;
+}
+
+.contatos h3 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+}
+
+.contatos p {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#adms img{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#adms figcaption{
+
+    text-align: center;
+}
+
+.menu ul {
+    padding-top:30px;
+    margin:1px;
+    background-color:#0aba50;
+    list-style:none;
+}
+
+.menu ul li { 
+    display: inline; 
+}
+
+.menu ul li a {
+    padding: 5px 110px;
+    display: inline-block;
+    background-color:#0aba50;
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom:10px solid #0aba50;
+    font-size: 25px;
+}
+
+.menu ul li a:hover {
+    background-color:#ab4437;
+    color: #ffffff;
+    border-bottom:3px solid #ab4437;
+} */
